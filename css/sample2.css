@@ -1,0 +1,137 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+.main-content
+{
+	width: 50%;
+	margin: 50px;
+	background: #ffffcc;
+}
+
+.side1
+{
+	float: left;
+   	width: 0;
+   	height: 0;
+   	border-left: 0px solid transparent;
+   	border-right: 87px solid transparent;
+   	border-bottom: 150px solid #43494d;
+   	-webkit-transform: rotate(0deg);
+   	-moz-transform: rotate(0deg);
+   	-o-transform: rotate(0deg);
+}
+
+.side2
+{
+	float: left;
+   	width: 5%;
+   	height: 150px;
+   	margin-left: -44px;
+   	background-color: #64dfe8;
+   	-webkit-transform: skew(30deg);
+   	-moz-transform: skew(30deg);
+   	-o-transform: skew(30deg);
+}
+
+.side3
+{
+	float: left;
+   	width: 77.5%;
+   	height: 150px;
+   	margin-left: -10px;
+   	background-color: #ffffcc;
+   	-webkit-transform: skew(30deg);
+   	-moz-transform: skew(30deg);
+   	-o-transform: skew(30deg);
+}
+
+.side3 .content
+{
+   	width: 400px;
+   	height: 150px;
+   	margin-left: 45px;
+   	background-color: #ffffcc;
+   	-webkit-transform: skew(-30deg);
+   	-moz-transform: skew(0deg);
+   	-o-transform: skew(0deg);
+}
+
+.section1 img
+{
+	float: left;
+	width: 145px;
+	height: 150px;
+	padding: 20px;
+	border-radius: 50%;
+}
+
+.vl
+{
+	margin-top: 10px;
+	height: 125px;
+	border-right: 2px solid #000;
+}
+
+.section2
+{
+	width: 400px;
+	float: right;
+	margin-left: 10px;
+}
+
+.section2 h2
+{
+	color: #a52a2a;
+	font-size: 20px;
+	padding: 5px 10px 0px 10px;
+}
+
+.section2 .blur
+{
+	color: #808080;
+	font-size: 12px;
+	padding: 0px 10px 10px 10px;
+}
+
+.section2 p
+{
+	color: #000;
+	font-size: 15px;
+	padding-left: 10px;
+}
+
+.section2 span
+{
+	color: #ff6933;
+}
+
+.side4
+{
+	float: left;
+   	width: 5%;
+   	height: 150px;
+   	margin-right: -44px;
+   	background-color: #64dfe8;
+   	-webkit-transform: skew(30deg);
+   	-moz-transform: skew(30deg);
+   	-o-transform: skew(30deg);
+}
+
+.side5
+{
+	float: right;
+   	width: 0;
+   	height: 0;
+   	margin-left: -15px;
+   	border-left: 0px solid transparent;
+   	border-right: 87px solid transparent;
+   	border-bottom: 150px solid #43494d;
+   	-webkit-transform: rotate(180deg);
+   	-moz-transform: rotate(180deg);
+   	-o-transform: rotate(180deg);
+}
